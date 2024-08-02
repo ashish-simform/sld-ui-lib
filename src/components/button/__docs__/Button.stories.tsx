@@ -20,7 +20,7 @@ export const Primary: Story = {
 };
 export const Secondary: Story = {
   args: {
-    text: "Button",
+    text: "Button Secondary",
     primary: false,
     disabled: false,
     size: "small",
