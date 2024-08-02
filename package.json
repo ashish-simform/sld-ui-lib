@@ -11,7 +11,8 @@
     "test:ui": "vitest --ui",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "type": "module",
   "main": "dist/index.cjs.js",
